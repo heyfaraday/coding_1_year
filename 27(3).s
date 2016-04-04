@@ -35,9 +35,10 @@ k:
   xor %rsi, %rsi
   xor %rdi, %rdi
 
+
   movl (x+0), %esi
   movl $printf_format, %edi
-  movl $0, %eax
+  movl $1, %eax
   call printf
 
   movl  $0, %eax
