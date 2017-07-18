@@ -2,9 +2,4 @@
 
 int a = 167;
 
-int main(){
-
-printf("%d",a);
-
-
-}
+int main() { printf("%d", a); }
